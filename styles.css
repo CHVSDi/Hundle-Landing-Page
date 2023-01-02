@@ -1,0 +1,255 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200&family=Open+Sans&family=Poppins:wght@400;900&display=swap');
+
+:root {
+    --Violet: hsl(257, 40%, 49%);
+    --Soft-Magenta: hsl(300, 69%, 71%);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-image: url(/images/bg-desktop.svg);
+    background-repeat: no-repeat;
+    background-color: var(--Violet);
+    background-size: cover;
+    
+}
+
+header {
+    width: 15px;
+    position: absolute;
+    top: 25px;
+    left: 50px;
+    margin: 0px;
+
+}
+
+.mobile {
+    visibility: hidden;
+}
+
+.logo {
+    width: 15px;
+    margin: 0px;
+}
+
+.container {
+    max-width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 150px;
+    right: 10px;
+}
+
+.description {
+    margin: 0px;
+    color: white;
+    width: 1500px;
+    position: absolute;
+    right: 70px;
+    top: 200px;
+}
+
+form {
+    margin: 0 auto;
+    max-width: 25%;
+    position: relative;
+    right: 770px;
+}
+
+.btn {
+    margin-top: 35px;
+    padding: 25px 118px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 14px;
+    font-size: 25px;
+    color: var(--Violet);
+    border-radius: 55px;
+    box-shadow: 9px 5px 10px -6px rgba(0,0,0,0.38);
+    position: absolute;
+    left: 170px;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background-color: var(--Soft-Magenta);
+    color: white;
+}
+
+.description h1{
+    margin: 0px;
+    font-family: "Open Sans", sans-serif;
+    font-size: 105px;
+    padding-bottom: 15px;
+    max-width: 80%;
+    position: relative;
+    right: 50px;;
+}
+
+.description p {
+    margin: 0 auto;
+    font-family: "Poppins", sans-serif;
+    font-size: 30px;
+    max-width: 70%;
+    opacity: 0.8;
+    position: relative;
+    right: 270px;
+}
+
+.image {
+    position: absolute;
+    top: 155px;
+    right: 1675px;
+}
+
+.image img {
+    width: 1000px;
+}
+
+footer {
+    position: relative;
+    top: 1100px;
+    text-align: center;
+    font-size: 50px;
+    color: white;
+}
+
+.socialMedia a{
+    text-decoration: none;
+    color: white;
+}
+
+.socialMedia a:hover i {
+    color: var(--Soft-Magenta);
+}
+
+.socialMedia {
+    position: relative;
+    left: 40px;
+    margin-bottom: 45px;
+    margin: 0 auto;
+    width: 200px;
+}
+
+.attribution { 
+    position: relative;
+    top: 150px;
+    right: 990px;
+    font-size: 25px; 
+    text-align: center; 
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+
+@media (max-width: 375px) {
+    *{
+        margin: 0;
+        padding: 0;
+    }
+
+    body {
+        margin: 0 auto;
+        background-color: var(--Violet);
+        background-image: url(../images/bg-mobile.svg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-size: 798px 645px;
+    }
+
+    header .logo, 
+    .container .image {
+    visibility: hidden;
+}
+
+    header {
+        max-width: 50%;
+    }
+
+    .mobile {
+        visibility: visible;
+    }
+
+    .mobile .logo {
+        margin: 45px 0px 0px 10px; 
+    }
+
+    .mobile .logo img {
+        width: 250px;
+    }
+
+    .container {
+        margin: 0 auto;
+        max-width: 100%;
+    }
+
+    .mobile .image {
+        max-width: 50%;
+        position: relative;
+        left: 25px;
+        top: 50px;
+    }
+
+    .mobile .image img {
+        width: 610px;
+    }
+
+    .description {
+        position: relative;
+        left: 150px;
+        top: 500px;
+        width: 150%;
+        text-align: center;
+    }
+
+    .description h1 {
+        font-size: 35px;
+        width: 550px;
+        margin: 0;
+        right: 25px;
+    }
+
+    .description p {
+        position: relative;
+        right: 30px;
+        margin: 25px 0px 0px 25px;
+        width: 620px;
+        font-size: 22px;
+    }
+
+    .description .btn {
+        position: absolute;
+        left: 540px;
+        top: 5px;
+        padding: 18px 148px;
+    }
+
+    footer {
+        margin-bottom: 0px;
+        position: relative;
+        top: 655px;
+    }
+
+    footer .socialMedia {
+        position: relative;
+        left: 145px;
+        margin-bottom: 0px;
+    }
+
+    .attribution {
+        margin: 0 auto;
+        position: absolute;
+        top: 95px;
+        left: 50px;
+        width: 600px;
+    }
+}
