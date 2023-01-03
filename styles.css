@@ -52,7 +52,7 @@ header {
 .description {
     margin: 0px;
     color: white;
-    width: 550px;
+    width: 750px;
     position: absolute;
     right: 70px;
     top: 200px;
@@ -89,9 +89,9 @@ form {
     font-family: "Open Sans", sans-serif;
     font-size: 50px;
     padding-bottom: 15px;
-    max-width: 80%;
+    max-width: 90%;
     position: relative;
-    right: 50px;;
+    right: 30px;;
 }
 
 .description p {
