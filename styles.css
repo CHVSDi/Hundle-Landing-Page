@@ -97,8 +97,8 @@ form {
 .description p {
     margin: 0 auto;
     font-family: "Poppins", sans-serif;
-    font-size: 30px;
-    max-width: 70%;
+    font-size: 20px;
+    max-width: 80%;
     opacity: 0.8;
     position: relative;
     right: 270px;
