@@ -107,7 +107,7 @@ form {
 .image {
     position: absolute;
     top: 155px;
-    right: 875px;
+    left: 475px;
 }
 
 .image img {
