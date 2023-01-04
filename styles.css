@@ -66,6 +66,7 @@ form {
 }
 
 .btn {
+    border-style: hidden;
     margin-top: 35px;
     padding: 15px 100px;
     font-family: "Poppins", sans-serif;
