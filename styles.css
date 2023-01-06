@@ -70,7 +70,7 @@ form {
     margin-top: 35px;
     padding: 15px 100px;
     font-family: "Poppins", sans-serif;
-    font-weight: 14px;
+    font-weight: 100;
     font-size: 25px;
     color: var(--Violet);
     border-radius: 55px;
@@ -164,7 +164,7 @@ footer {
     body {
         margin: 0 auto;
         background-color: var(--Violet);
-        background-image: url(../images/bg-mobile.svg);
+        background-image: url(bg-mobile.svg);
         background-size: cover;
         background-repeat: no-repeat;
         background-size: 1435px 1250px;
