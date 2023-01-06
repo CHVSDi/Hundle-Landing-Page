@@ -116,10 +116,13 @@ form {
 
 footer {
     position: relative;
-    top: 400px;
+    top: 600px;
+    left: 150px;
     text-align: center;
     font-size: 40px;
     color: white;
+    width: 300px;
+    margin-right: 50px;
 }
 
 .socialMedia a{
@@ -133,19 +136,19 @@ footer {
 
 .socialMedia {
     position: relative;
-    left: 20px;
+    right: 450px;
     top: 50px;
-    margin-bottom: 35px;
-    margin: 0 auto;
-    width: 200px;
+    margin: 0px 0px 5px 1380px;
+    width: 150px;
 }
 
 .attribution { 
     position: relative;
-    top: 150px;
-    right: 470px;
+    top: 75px;
+    left: 300px;
     font-size: 15px; 
     text-align: center; 
+    width: 450px;
 }
 
 .attribution a { 
@@ -161,10 +164,10 @@ footer {
     body {
         margin: 0 auto;
         background-color: var(--Violet);
-        background-image: url(./bg-mobile.svg);
+        background-image: url(../images/bg-mobile.svg);
         background-size: cover;
         background-repeat: no-repeat;
-        background-size: 798px 645px;
+        background-size: 1435px 1250px;
     }
 
     header .logo, 
@@ -176,16 +179,16 @@ footer {
         max-width: 50%;
     }
 
-    .mobile {
+    main .mobile {
         visibility: visible;
     }
 
     .mobile .logo {
-        margin: 45px 0px 0px 10px; 
+        margin: 45px 0px 0px 50px; 
     }
 
     .mobile .logo img {
-        width: 250px;
+        width: 460px;
     }
 
     .container {
@@ -194,44 +197,48 @@ footer {
     }
 
     .mobile .image {
-        max-width: 50%;
+        max-width: 70%;
         position: relative;
-        left: 25px;
-        top: 50px;
+        left: 80px;
+        top: 220px;
     }
 
     .mobile .image img {
-        width: 610px;
+        width: 1050px;
     }
 
     .description {
         position: relative;
-        left: 150px;
-        top: 500px;
-        width: 150%;
+        left: 230px;
+        top: 1100px;
+        width: 850px;
         text-align: center;
+        margin-left: 0px;
     }
 
     .description h1 {
-        font-size: 35px;
-        width: 550px;
+        font-size: 75px;
+        width: 950px;
         margin: 0;
-        right: 25px;
+        left: 87px;
     }
 
     .description p {
         position: relative;
-        right: 40px;
+        left: 87px;
         margin: 25px 0px 0px 25px;
-        width: 620px;
-        font-size: 22px;
+        width: 1019px;
+        font-size: 41px;
+        line-height: 70px;
     }
 
     .description .btn {
         position: absolute;
-        left: 570px;
-        top: 5px;
-        padding: 18px 148px;
+        left: 530px;
+        top: 25px;
+        padding: 38px 280px;
+        font-size: 45px;
+        border-radius: 100px;
     }
 
     footer {
@@ -242,15 +249,22 @@ footer {
 
     footer .socialMedia {
         position: relative;
-        left: 155px;
+        right: 1020px;
+        top: 680px;
         margin-bottom: 0px;
+        width: 350px;
     }
 
-    .attribution {
-        margin: 0 auto;
+    footer .socialMedia i {
+        font-size: 100px;
+    }
+
+    footer .attribution {
+        margin-left: 0px;
         position: absolute;
-        top: 200px;
-        left: 50px;
-        width: 600px;
+        top: 815px;
+        left: 25px;
+        width: 1100px;
+        font-size: 50px;
     }
 }
